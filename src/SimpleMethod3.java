@@ -10,12 +10,14 @@ public class SimpleMethod3 {
      */
     public static int square(int number) {
         // Put your code here
-        return 0;
+        int num = (int) Math.pow(number, 2);
+        return num;
     }
 
     public static double square(double number) {
         // Put your code here
-        return 0;
+        double num = Math.pow(number, 2);
+        return num;
     }
 
     public static void main(String[] args) {
