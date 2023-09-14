@@ -5,7 +5,9 @@ public class SimpleMethod {
     }
     public static void main(String[] args) {
         // This is the method call, create the square method.
-        square (num = 25);
+        int num = 25;
+        int result = square(num);
+        System.out.println(result);
 
     }
 }
