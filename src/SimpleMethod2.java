@@ -1,3 +1,4 @@
+/*
 import java.util.Scanner;
 
 public class SimpleMethod2 {
@@ -10,3 +11,4 @@ public class SimpleMethod2 {
         // Put the result System.out code here.
     }
 }
+*/
