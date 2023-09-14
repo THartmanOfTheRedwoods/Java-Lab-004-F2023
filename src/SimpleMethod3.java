@@ -10,12 +10,12 @@ public class SimpleMethod3 {
      */
     public static int square(int number) {
         // Put your code here
-        return 0;
+        return (int)Math.pow(number , 2);
     }
 
     public static double square(double number) {
         // Put your code here
-        return 0;
+        return Math.pow(number , 2);
     }
 
     public static void main(String[] args) {
@@ -31,6 +31,6 @@ public class SimpleMethod3 {
         /* Doubles used  */
         double input2 = Double.valueOf(scanner.nextLine());
         double result2 = square(input2);
-        System.out.printf("The square of %f is %f%n", input2, result2);
+        System.out.printf("The square of %.3f is %.3f%n", input2, result2);
     }
 }
