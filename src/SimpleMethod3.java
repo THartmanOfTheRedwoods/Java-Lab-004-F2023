@@ -9,13 +9,14 @@ public class SimpleMethod3 {
           the arguments correctly and cast upon return.
      */
     public static int square(int number) {
-        // Put your code here
-        return 0;
+
+        return (int) Math.pow(number, number);
     }
 
     public static double square(double number) {
-        // Put your code here
-        return 0;
+         return Math.pow(number, number);
+
+
     }
 
     public static void main(String[] args) {
