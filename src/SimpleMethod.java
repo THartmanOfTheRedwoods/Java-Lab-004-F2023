@@ -8,6 +8,7 @@ public class SimpleMethod {
 
     public static void main(String[] args) {
         // This is the method call, create the square method.
-        square(25);
+        square = String.valueOf(square(25));
+        System.out.println(square);
     }
 }
