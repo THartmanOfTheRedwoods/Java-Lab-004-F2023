@@ -8,14 +8,14 @@ public class SimpleMethod3 {
           Overloaded methods can even call each-other, but you'll have to type
           the arguments correctly and cast upon return.
      */
-    public static int square(int number) {
-        // Put your code here
-        return 0;
+    public static int square(int userInt) {
+            int numSquared = userInt * userInt;
+            return numSquared;
     }
 
-    public static double square(double number) {
-        // Put your code here
-        return 0;
+    public static double square(double userDouble) {
+        double numSquared = userDouble * userDouble;
+        return numSquared;
     }
 
     public static void main(String[] args) {
