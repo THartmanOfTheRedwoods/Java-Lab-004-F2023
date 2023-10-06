@@ -1,5 +1,11 @@
 import java.util.Scanner;
 
+/**
+ * @author Trevor Hartman
+ * @author Trevor Hartman
+ *
+ * @since Version 1.0
+ */
 public class SimpleMethod3 {
 
     /*
@@ -10,18 +16,19 @@ public class SimpleMethod3 {
      */
     public static int square(int number) {
         // Put your code here
-        return 0;
+
+        return number * number;
     }
 
     public static double square(double number) {
         // Put your code here
-        return 0;
+        return Math.pow(number,2.0);
     }
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("What number would you like to square: ");
+        System.out.println("What number would you like to square: ");
         /* Integers Used */
         int input = Integer.valueOf(scanner.nextLine());
         int result = square(input);
