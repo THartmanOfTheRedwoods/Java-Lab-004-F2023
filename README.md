@@ -21,6 +21,8 @@
     * HINT: radians = degrees * PI / 180
 * In the main function, compare your method's results to the Math.toRadians and Math.toDegrees methods by printing to the console. 
 
+## ^ Man I really wish I saw this before I started the assignment, I just spent half an hour reading about radians
+
 ## Part 5 - Submission
 * Create a feature branch (i.e. Feature001)
 * Commit your working code
