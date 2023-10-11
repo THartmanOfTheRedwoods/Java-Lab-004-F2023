@@ -2,12 +2,12 @@ import java.util.Scanner;
 
 public class Radians {
 
-    public static <ADD TYPE> toRadians(<ADD TYPE> degrees) {
-        // Pur your code here
+    public static double toRadians(double degrees) {
+        return degrees * Math.PI / 180.0;
     }
 
-    public static <ADD TYPE> toDegrees(<ADD TYPE> radians) {
-        // Put your code here
+    public static double toDegrees(double radians) {
+        return radians * 180.0 / Math.PI;
     }
 
     public static void main(String[] args) {
