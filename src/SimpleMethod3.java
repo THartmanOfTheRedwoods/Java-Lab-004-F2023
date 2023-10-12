@@ -2,22 +2,36 @@ import java.util.Scanner;
 
 public class SimpleMethod3 {
 
-    /*
-    NOTE: You can create multiple methods with the same name and different return
-          types or parameters (Overloading methods).
-          Overloaded methods can even call each-other, but you'll have to type
-          the arguments correctly and cast upon return.
+    /**
+     * Squares an integer value
+     * @author Atticus Blanco
+     * @param userInt
+     * @return numSquared
      */
-    public static int square(int number) {
-        // Put your code here
-        return 0;
+    public static int square(int userInt) {
+            int numSquared = userInt * userInt;
+            return numSquared;
     }
 
-    public static double square(double number) {
-        // Put your code here
-        return 0;
+    /**
+     * Squares a double value
+     * @author Atticus Blanco
+     * @param userDouble
+     * @return numSquared
+     */
+    public static double square(double userDouble) {
+        double numSquared = userDouble * userDouble;
+        return numSquared;
     }
 
+    /**
+     * Prompts user for integer value, squares it and prints product to terminal.
+     * Then prompts user for double value, squares it and prints product to terminal.
+     * @author Atticus Blanco
+     * @throws NumberFormatException If the user enters an invalid integer
+     * @see SimpleMethod3#square(int)
+     * @see SimpleMethod3#square(double)
+     */
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
