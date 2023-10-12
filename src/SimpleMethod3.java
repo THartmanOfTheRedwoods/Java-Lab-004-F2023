@@ -2,12 +2,6 @@ import java.util.Scanner;
 
 public class SimpleMethod3 {
 
-    /*
-    NOTE: You can create multiple methods with the same name and different return
-          types or parameters (Overloading methods).
-          Overloaded methods can even call each-other, but you'll have to type
-          the arguments correctly and cast upon return.
-     */
     public static int square(int userInt) {
             int numSquared = userInt * userInt;
             return numSquared;

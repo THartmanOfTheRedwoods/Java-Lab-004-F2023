@@ -13,7 +13,7 @@ public class SimpleMethod2 {
         Scanner scanner = new Scanner(System.in);
         System.out.println("What number would you like to square?");
 
-        int userInt = scanner.nextInt();
+        int userInt = Integer.parseInt(scanner.nextLine());
         int squaredNum = square(userInt);
         System.out.println(squaredNum);
     }
