@@ -7,7 +7,7 @@ public class Radians {
     double degrees;
 
     /**
-     *
+     * Converts degrees to radians
      * @author Atticus Blanco
      * @param degrees
      */
@@ -16,7 +16,7 @@ public class Radians {
     }
 
     /**
-     *
+     * Converts radians to degrees
      * @author Atticus Blanco
      * @param radians
      */
