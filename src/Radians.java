@@ -6,14 +6,32 @@ public class Radians {
     double radians;
     double degrees;
 
+    /**
+     *
+     * @author Atticus Blanco
+     * @param degrees
+     */
     public void toRadians(double degrees) {
         this.radians = degrees * PI / 180;
     }
 
+    /**
+     *
+     * @author Atticus Blanco
+     * @param radians
+     */
     public void toDegrees(double radians) {
         this.degrees = radians * 180 / PI;
     }
 
+    /**
+     * Prompts user for degree value, converts to radians, then prints result to terminal.
+     * Then prompts user for radian value, converts to degrees, then prints result to terminal.
+     * @author Atticus Blanco
+     * @throws NumberFormatException If the user enters an invalid integer
+     * @see Radians#toDegrees(double)
+     * @see Radians#toRadians(double)
+     */
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         Radians rads = new Radians();
