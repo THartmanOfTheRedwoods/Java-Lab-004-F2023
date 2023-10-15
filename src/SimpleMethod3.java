@@ -10,24 +10,28 @@ public class SimpleMethod3 {
      */
     public static int square(int number) {
         // Put your code here
-        return 0;
+        double result = Math.pow(number,2);
+        int answer = (int) result;
+        return answer;
     }
 
     public static double square(double number) {
         // Put your code here
-        return 0;
+        double answer2 = Math.pow(number,2);
+        return answer2;
     }
 
+    //step1
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("What number would you like to square: ");
+        System.out.print("What integer would you like to square: ");
         /* Integers Used */
         int input = Integer.valueOf(scanner.nextLine());
         int result = square(input);
         System.out.printf("The square of %d is %d%n", input, result);
 
-        System.out.print("What number would you like to square: ");
+        System.out.print("What double number would you like to square: ");
         /* Doubles used  */
         double input2 = Double.valueOf(scanner.nextLine());
         double result2 = square(input2);
