@@ -3,6 +3,10 @@ public class SimpleMethod {
 
     public static void main(String[] args) {
         // This is the method call, create the square method.
-        square(25);
+        public static void square(int Sq) {
+            System.out.println(Sq * Sq);
+            int result = Sq * Sq;
+            System.out.println(result);
+        //square(25);
     }
 }
